@@ -40,7 +40,7 @@ def algo_evaluation(
     xtrain: pd.DataFrame,
     ytrain: pd.Series,
     xtest: pd.DataFrame,
-    ytest: pd.DataFrame,
+    ytest: pd.Series,
 ) -> tuple[BaseEstimator, pd.DataFrame]:
     results = []
     # Apply for loop on all models
